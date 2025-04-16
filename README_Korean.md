@@ -1,10 +1,12 @@
 # 네이버맵 MCP 서버
 
-Claude Desktop에서 사용할 수 있는 네이버맵 API(Geocoding, Reverse Geocoding, Direction5, Direction15, Static Map, Dynamic Map)를 활용한 MCP 서버입니다.
+Claude Desktop에서 사용할 수 있는 네이버맵 API(Geocoding, Reverse Geocoding, Direction5, Direction15)를 활용한 MCP 서버입니다.
+
+> **참고**: 이 MCP 서버는 클라이언트 측 렌더링이 필요한 API(Dynamic Map, Static Map)는 지원하지 않습니다.
 
 ## 기능
 
-- 네이버맵 Geocoding API를 사용하여 주소 검색
+- 네이버맵 Geocoding API를 사용하여 주소 검색 (주소 정보 및 좌표 출력)
 - 네이버맵 Reverse Geocoding API를 사용하여 좌표를 주소로 변환
 - 네이버맵 Direction5 API를 사용하여 경로 검색 (최대 5개 경유지)
 - 네이버맵 Direction15 API를 사용하여 경로 검색 (최대 15개 경유지)
