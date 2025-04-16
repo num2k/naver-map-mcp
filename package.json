@@ -1,0 +1,37 @@
+{
+  "name": "naver-map-mcp",
+  "version": "1.0.0",
+  "description": "네이버맵 API를 활용한 MCP 서버",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "mcp",
+    "naver map",
+    "geocoding",
+    "reverse geocoding",
+    "address",
+    "location",
+    "coordinates",
+    "directions",
+    "claude",
+    "api"
+  ],
+  "author": "num2k",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "@types/node-fetch": "^2.6.12",
+    "axios": "^1.8.4",
+    "node-fetch": "^2.7.0",
+    "zod": "^3.24.2"
+  }
+}
