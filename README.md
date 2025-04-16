@@ -1,10 +1,12 @@
 # Naver Map MCP Server
 
-This is an MCP server that utilizes Naver Map APIs (Geocoding, Reverse Geocoding, Direction5, Direction15, Static Map, Dynamic Map) for use with Claude Desktop.
+This is an MCP server that utilizes Naver Map APIs (Geocoding, Reverse Geocoding, Direction5, Direction15) for use with Claude Desktop.
+
+> **Note**: This MCP server does not support APIs that require client-side rendering (Dynamic Map, Static Map).
 
 ## Features
 
-- Address search using Naver Map Geocoding API
+- Address search using Naver Map Geocoding API (retrieve address information and coordinates)
 - Convert coordinates to addresses using Naver Map Reverse Geocoding API
 - Route search using Naver Map Direction5 API (up to 5 waypoints)
 - Route search using Naver Map Direction15 API (up to 15 waypoints)
